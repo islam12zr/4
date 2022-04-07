@@ -1,0 +1,22 @@
+
+ALGORITHM algorithm_name
+VAR
+    set_declarations
+BEGIN
+     For pointer = 1 to Array.Length-1
+
+ Current =Array [pointer]
+
+ While CardPosition > 0 AND Array [postion -1] > current
+
+ Array[postion] =Array [postion-1]
+
+ Position = position -1
+ 
+ End while
+
+ Array while
+
+ Array[postion]=current 
+
+END
